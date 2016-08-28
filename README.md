@@ -33,9 +33,9 @@ provider. As a result, it's important to resist the
 temptation to change fundamental aspects of the
 infrastructure outside of Docker. If you do,
 if someone comes along expecting the deploy to
-be as easy as a `docker-compose up -d` they are
-going to be confused as to why your fancy add
-on does not work.
+be as easy as a `docker-compose up` they are
+going to be confused as to why your fancy add-on
+does not work.
 
 When in doubt, at least heavily document what was
 done. Or learn Docker. It's easy, I promise. :)
@@ -47,14 +47,9 @@ page in the docs.
 Configuration<a name="configuration"></a>
 =========================================
 
-Configuring the install requires the installation of
-several plugins as well as ensuring their settings are
-set correctly.
-
-- Email https://wordpress.org/plugins/hectane/
-- Support Retina Images https://wordpress.org/plugins/wp-retina-2x/
-- Support Cloudront https://wordpress.org/plugins/amazon-s3-and-cloudfront/
-- Support Database backup: Database Backup Amazon S3
-
-
-Detailed instructions for 
+Configuration steps are still being squared
+away, and are dependent on what themes
+and plug-ins are found to be necessary.
+Full instructions can be found at the
+[Configuration](docs/CONFIGURATION.md)
+page.
