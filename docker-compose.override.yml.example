@@ -1,0 +1,9 @@
+version: '2'
+services:
+  wordpress:
+    environment:
+      - WORDPRESS_DB_PASSWORD=
+  mysql:
+    environment:
+      - MYSQL_ROOT_PASSWORD=
+      - MYSQL_PASSWORD=
